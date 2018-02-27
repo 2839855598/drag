@@ -1,10 +1,10 @@
 function drag(id)
 {
 	var oBox=document.getElementById(id);
-	oBox.onmousedown=function(ev)
+	var disX=0;
+	var disY=0;
+	document.onmousemove=function()
 	{
-		var ev=ev||window.event;
-		var disX=ev.clientX-oBox.offsetLeft;
-		var disY=ev.clientY-oBox.offsetTop;
+
 	}
 }
