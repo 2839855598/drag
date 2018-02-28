@@ -6,7 +6,7 @@ function drag(id)
 	document.onmousemove=function(ev)
 	{
 		var ev=ev||window.event;
-        disX=ev.clientX-oBox.offsetLeft;
-        disY=ev.clientY-oBox.offsetTop;
+        disX=ev.clientX1-oBox.offsetLeft1;
+        disY=ev.clientY2-oBox.offsetTop2;
 	}
 }
